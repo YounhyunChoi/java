@@ -1,10 +1,8 @@
 package ch06.home.ex03.case02;
 
-import ch05.home.ex06.case02.Console;
-
-public class Singer extends Job {
+public class Singer extends Entertainer {
 	@Override
-	public void perform() {
-		Console.info("랄랄라.");
+	public void play() {
+		System.out.println("노래하다.");
 	}
 }
