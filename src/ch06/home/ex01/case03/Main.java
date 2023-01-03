@@ -2,7 +2,8 @@ package ch06.home.ex01.case03;
 
 public class Main {
 	public static void main(String[] args) {
-		Fruit fruits = new Fruit();
+		Apple apple = new Apple();
+		Grape grape = new Grape();
 	}
 }
 /*
